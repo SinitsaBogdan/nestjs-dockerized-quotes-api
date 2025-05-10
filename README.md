@@ -1,4 +1,4 @@
-# API цитат
+# API цитат - nestjs-quotes-api
 Докеризированная версия проекта доступна в `feature/dockerize`
 
 ## Описание
