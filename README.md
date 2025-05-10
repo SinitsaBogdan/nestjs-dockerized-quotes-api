@@ -16,3 +16,9 @@
 
 ## Запуск
 `npm run start`
+
+
+docker build . -t nestjs-quotes-api:node20-alpine
+docker run -p 3000:3000 nestjs-quotes-api:node20-alpine
+docker image tag nestjs-quotes-api:node20-alpine sinitsabogdan/nestjs-quotes-api:node20-alpine
+docker image push sinitsabogdan/nestjs-quotes-api:node20-alpine
